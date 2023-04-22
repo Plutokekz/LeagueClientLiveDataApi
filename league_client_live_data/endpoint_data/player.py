@@ -5,10 +5,10 @@ from typing import List
 
 from pydantic import BaseModel
 
-from endpoint_data.abilities import Abilities
-from endpoint_data.champion_stata import ChampionStats
-from endpoint_data.runes import Runes, FullRunes
-from endpoint_data.summoner_spell import SummonerSpells
+from .abilities import Abilities
+from .champion_stata import ChampionStats
+from .runes import Runes, FullRunes
+from .summoner_spell import SummonerSpells
 
 
 class Scores(BaseModel):

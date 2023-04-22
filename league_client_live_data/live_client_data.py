@@ -9,14 +9,14 @@ from typing import Optional
 
 import httpx
 
-import utils
-from endpoint_data.abilities import Abilities
-from endpoint_data.all_game_data import AllGameData
-from endpoint_data.event import Events
-from endpoint_data.game_data import GameData
-from endpoint_data.player import ActivePlayer, Scores, Items, Players
-from endpoint_data.runes import FullRunes, Runes
-from endpoint_data.summoner_spell import SummonerSpells
+from . import utils
+from .endpoint_data.abilities import Abilities
+from .endpoint_data.all_game_data import AllGameData
+from .endpoint_data.event import Events
+from .endpoint_data.game_data import GameData
+from .endpoint_data.player import ActivePlayer, Scores, Items, Players
+from .endpoint_data.runes import FullRunes, Runes
+from .endpoint_data.summoner_spell import SummonerSpells
 
 logger = logging.getLogger(__name__)
 

@@ -5,9 +5,9 @@ from typing import List
 
 from pydantic import BaseModel
 
-from endpoint_data.event import Events
-from endpoint_data.game_data import GameData
-from endpoint_data.player import ActivePlayer, Player
+from .event import Events
+from .game_data import GameData
+from .player import ActivePlayer, Player
 
 
 class AllGameData(BaseModel):
